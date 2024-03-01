@@ -1,5 +1,44 @@
 # Changelog
 
+## [1.11.0](https://github.com/silverfantacy/Wallos/compare/v1.10.0...v1.11.0) (2024-03-01)
+
+
+### Features
+
+* add apilayer as provider for fixer api ([0f19dd6](https://github.com/silverfantacy/Wallos/commit/0f19dd688fe3a2156e7d26d1bf1e1f8b30ce79ad))
+* add apilayer as provider for fixer api ([#127](https://github.com/silverfantacy/Wallos/issues/127)) ([0f19dd6](https://github.com/silverfantacy/Wallos/commit/0f19dd688fe3a2156e7d26d1bf1e1f8b30ce79ad))
+* add email for notifications to household members ([26363dd](https://github.com/silverfantacy/Wallos/commit/26363dd5f364b5494c526a9769626b03bba45273))
+* add stats about inactive subscriptions ([#146](https://github.com/silverfantacy/Wallos/issues/146)) ([ccac17a](https://github.com/silverfantacy/Wallos/commit/ccac17a6f222cb1ee022fd30b7a1d34306dd0de2))
+* add workflow for building and publishing docker images ([970c96a](https://github.com/silverfantacy/Wallos/commit/970c96a8c904809544c944071986be2a684daf50))
+* allow to disable subscriptions ([#144](https://github.com/silverfantacy/Wallos/issues/144)) ([50056d9](https://github.com/silverfantacy/Wallos/commit/50056d9f03a46c166650474b3877b55a24873bb9))
+* convert wallos into a progressive web app ([#151](https://github.com/silverfantacy/Wallos/issues/151)) ([19e2058](https://github.com/silverfantacy/Wallos/commit/19e205897617ee894d8802f7e73fef46be386c30))
+* enable deployment in subdirectory ([e2af9af](https://github.com/silverfantacy/Wallos/commit/e2af9afc32bfc248f594336c50d44ad6f36f197e))
+* enable progressive web app ([a2a315e](https://github.com/silverfantacy/Wallos/commit/a2a315e34dca2562bc11793cc5841c2082e811a9))
+* new statistics per payment method ([#124](https://github.com/silverfantacy/Wallos/issues/124)) ([6200fa5](https://github.com/silverfantacy/Wallos/commit/6200fa5e87d3f60853c3d8b95f5d676e39b378f4))
+* persist display and experimental settings on the db ([f0a6f1a](https://github.com/silverfantacy/Wallos/commit/f0a6f1a2f18b329c9f784a9f1953cd0e7616e1c6))
+* small styles changed ([f0a6f1a](https://github.com/silverfantacy/Wallos/commit/f0a6f1a2f18b329c9f784a9f1953cd0e7616e1c6))
+* sort disabled subscription at the bottom ([ccac17a](https://github.com/silverfantacy/Wallos/commit/ccac17a6f222cb1ee022fd30b7a1d34306dd0de2))
+* specify image stability type when triggering build ([5b22cfd](https://github.com/silverfantacy/Wallos/commit/5b22cfd87a94a865f53b282964961862bbea1861))
+* update exchange rate when saving api key ([0f19dd6](https://github.com/silverfantacy/Wallos/commit/0f19dd688fe3a2156e7d26d1bf1e1f8b30ce79ad))
+* use brave search for the logos if google fails ([#169](https://github.com/silverfantacy/Wallos/issues/169)) ([fff783e](https://github.com/silverfantacy/Wallos/commit/fff783e4e87f04199817c7cb3b4bd28760d2b5f3))
+
+
+### Bug Fixes
+
+* bug on saving fixer api key ([#142](https://github.com/silverfantacy/Wallos/issues/142)) ([866eb28](https://github.com/silverfantacy/Wallos/commit/866eb28e88495e851336b5e224274a823ff4173d))
+* Currency not preselected on registration ([fc56cf6](https://github.com/silverfantacy/Wallos/commit/fc56cf69ef22a07978022265b2e8344dc293eb14))
+* improve traditional chinese translations ([19e2058](https://github.com/silverfantacy/Wallos/commit/19e205897617ee894d8802f7e73fef46be386c30))
+* Language sort order ([884a8e5](https://github.com/silverfantacy/Wallos/commit/884a8e569339ddbcb89af4634c0c845b053affbb))
+* missing authentication check ([#133](https://github.com/silverfantacy/Wallos/issues/133)) ([b887d3a](https://github.com/silverfantacy/Wallos/commit/b887d3a0503585dadde4b1b59b023c981b0f7f66))
+* move display settings to the bottom ([ec25d4b](https://github.com/silverfantacy/Wallos/commit/ec25d4bc5a35f68ff15d456ae6a1d3e98d124f5f))
+* remove service worker ([#157](https://github.com/silverfantacy/Wallos/issues/157)) ([5ccadce](https://github.com/silverfantacy/Wallos/commit/5ccadce2f139e5873889badc51a67bfaef8a9304))
+* reorder subscription form ([ec25d4b](https://github.com/silverfantacy/Wallos/commit/ec25d4bc5a35f68ff15d456ae6a1d3e98d124f5f))
+* service worker has redirections ([4aca7bc](https://github.com/silverfantacy/Wallos/commit/4aca7bcb3cdbb77958db8783c4f088df131db645))
+* service worker redirect not set to follow ([3640b54](https://github.com/silverfantacy/Wallos/commit/3640b547ee3ca28e7b872b9e2dbbcd1d31c54953))
+* show email field on adding household member ([ec25d4b](https://github.com/silverfantacy/Wallos/commit/ec25d4bc5a35f68ff15d456ae6a1d3e98d124f5f))
+* show translated no category when sorting by category ([#122](https://github.com/silverfantacy/Wallos/issues/122)) ([330c061](https://github.com/silverfantacy/Wallos/commit/330c061b74ad1580173f3d3bc7b14048492e22d2))
+* update packages to fix vulnerabilities ([a2a315e](https://github.com/silverfantacy/Wallos/commit/a2a315e34dca2562bc11793cc5841c2082e811a9))
+
 ## [1.10.0](https://github.com/ellite/Wallos/compare/v1.9.1...v1.10.0) (2024-02-29)
 
 
